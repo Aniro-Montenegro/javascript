@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let numero= prompt("Digite um número");
+
+        let indice=0;
+        while(indice<=10){
+            resultado=indice*numero;
+            document.write(`${indice} x ${numero} = ${resultado}<br>`);
+            indice++;
+        }
+
+        document.write("Saiu do while <br>");
+
+        indice=0;
+        do{
+            if(indice>7){
+                alert("break- numero maior que 10")
+                break;
+            }
+            resultado = indice * numero;
+            document.write(`${indice} x ${numero} = ${resultado}<br>`);
+            indice++;
+        }while(indice <= 10)
+        document.write("Saiu do do-while <br>");
+
+        for (let j=0;j<=10;j++){
+
+            if(j===5){
+                continue;
+            }
+            
+                resultado = j * numero;
+                document.write(`${j} x ${numero} = ${resultado}<br>`)
+          
+
+        }
+
+        document.write("Saiu do for <br>");
+        
+    </script>
+</body>
+</html>

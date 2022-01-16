@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Funções</h1>
+
+    <script>
+        
+        //Declaração de função 
+        function olaMundo(){
+            document.write("Olá mundo<br>");
+        }
+
+        olaMundo();
+
+        // expressão de função
+
+        const ola= function(){
+            document.write("Ola mundo de function expression<br>");
+        }        
+
+        ola();
+
+        // arrow function
+
+        const funcao = ()=> document.write("Ola mundo arrow function<br>");
+        
+        funcao();
+
+
+        // retorno de valores
+
+        function obterDiaSemana(){
+
+            return new Date().getDay();
+        }
+
+        let dia= obterDiaSemana();
+        document.write(`Dia da semana ${dia}<br>`);
+
+
+        // recebendo valores 
+
+        function somar(n1,n2){
+
+            return n1+n2;
+        }
+
+        let soma= somar(15,15)
+
+        document.write(`Soma  ${soma}<br>`);
+
+
+
+    </script>
+</body>
+
+</html>

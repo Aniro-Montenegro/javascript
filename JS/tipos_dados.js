@@ -31,3 +31,48 @@ mauris nunc sodales ipsum, nec accumsan arcu diam sed justo.
   No JavaScript temos 4 tipos de números, os inteiros 
   (por exemplo: 13), os reais ou float (por exemplo: 83.1),
    o Not a Number (NaN) e o infinito (Infinity).*/
+
+   console.log(10+10)
+   console.log(10+10.58)
+   console.log(4==NaN)
+   console.log(10>Infinity)
+   console.log(25<Infinity)
+
+   ///////////////////////////////////////////////////
+   /*
+   No JavaScript, um dado boolean pode ter apenas 2 
+   valores, verdadeiro (true) e falso (false).*/
+
+   console.log(true==false)
+
+   ////////////////////////////////////////////////
+/*
+No JavaScript temos o tipo de dados Undefined, que representa valores indefinidos, e o
+ tipo de dados null, que são muitas vezes confundidos. 
+ A diferença dos dois é que null é considerado como um objeto
+  vazio, ou seja, algo indefinido não existe, já algo null 
+  existe mas não tem valor algum.*/
+///////////////////////////////////////////////
+/*
+O tipo de dado Object é estrutural, contendo atributos, ou propriedades, e 
+métodos, ou funcionalidades. Um objeto é denotado com os caracteres { }, 
+atributos e métodos com nome: valor . Por exemplo { nome: "João", idade: 20 }.*/
+var objeto={
+    "atributo1":10,
+    "atributo2":"String",
+    "atributo3":true,
+    "atributo4":null
+}
+console.log(objeto)
+
+/////////////////////////////////////////////////////////
+/*O tipo de dados Array, ou vetor, também é estrutural, e consiste em uma 
+lista de dados agrupados, um Array é denotado com os caracteres [ ] ,
+ por exemplo: [ "Leite", "Ovos", "Manteiga", 1, 2 ] .*/
+ var lista=["Nome",10,null,{"obj":"palavra"}]
+ console.log(lista)
+ console.log(lista[1])
+ console.log(lista[3])
+
+
+
